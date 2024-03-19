@@ -1,0 +1,95 @@
+body{
+    background-color: #fff;
+}
+.Bem-Vindo {
+    color: var(--cor-primaria);
+    font-size: 15px;
+    text-align: center;
+    line-height: 200%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+   
+
+.caixa-login{
+    background-color: #fff;
+    width: 250px; /*largura da caixa de login*/
+    height: auto;
+    margin: auto; /*centralizando automaticamente pela largura. tam obj - tam tel = obj exatamente no meio*/
+    border: 2px  solid #9AFE2E;/*grossura, tipo e cor da borda da caixa*/
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: center;
+    font-family: "Quicksand";
+}
+.email{
+    margin-bottom: 15px;
+}
+
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 25px;
+    font-weight:bold;
+    margin-bottom: 20px;
+    font-family: "Quicksand";
+}
+
+label{
+    font-size: 20px;
+    margin: top 25px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border:var(--cor-primaria) 1px solid ;
+    border-radius: 8px;
+    font-family: "Quicksand";
+    
+    
+}
+
+#btn-entrar {
+    margin-top: 20px;
+    /* cor de fundo do botao */
+    background-color:#64FE2E;
+    /* cor do negrito, tamanho e tipo de fonte */
+    font-family: "Quicksand";
+    font-size: 15px;
+    /* cor principal da fonte */
+    color:#fff;
+    /* espaçamento das lentras dentro do botao */
+    letter-spacing: 8px;
+    /* largura do botao */
+    width: 100% ;
+    /* altura do botao */
+    height: 30px;
+    /* arredondamento das bordas do botao */
+    border-radius: 2px;
+    /* cor da borda do botao */
+    border-color: #64FE2E;
+    justify-content: center;  
+    
+}
+#btn-entrar:hover{
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+}
+
+
+.esqueci-minha-senha a {
+    margin-top: 15px;
+    color: var(--cor-primaria);
+    font-size: 12px;
+    font-weight: 550;
+    text-align: right;
+    font-family:  "Quicksand"; 
+    padding-top: 15px;  
+}
+
+#loading{
+    display: none;
+}
+
